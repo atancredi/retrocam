@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, useCallback } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 
 type CameraMode = 'environment' | 'user';
 type FilterMode = 'custom' | 'crunch' | 'gameboy' | 'grayscale' | 'sepia' | 'cyberpunk';
